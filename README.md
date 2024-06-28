@@ -1,4 +1,4 @@
-# URL Shortener Service
+# URL Generator Service
 
 This project is a simple URL Shortener Service built using ASP.NET Core, Entity Framework Core, and SQLite. 
 It allows users to shorten long URLs, retrieve the original URLs from the shortened versions, and redirect to the original URLs.
