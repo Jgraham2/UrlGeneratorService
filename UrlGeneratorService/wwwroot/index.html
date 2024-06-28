@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>URL Shortener</h2>
+        <div class="button-container">
+            <input type="text" id="originalUrl" placeholder="Enter original URL" />
+            <button class="shorten" onclick="shortenUrl()">Shorten URL</button>
+        </div>
+        <div class="button-container">
+            <input type="text" id="shortUrl" placeholder="Enter short URL" />
+            <button class="shorten" onclick="getOriginalUrl()">Get Original URL</button>
+        </div>
+        <div class="button-container">
+            <input type="text" id="redirectUrl" placeholder="Enter short URL to redirect" />
+            <button class="redirect" onclick="redirectToOriginal()">Redirect to Original URL</button>
+        </div>
+        <div class="result" id="result"></div>
+        <div class="error" id="error"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
